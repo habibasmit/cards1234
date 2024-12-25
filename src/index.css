@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.statusText {
+  text-align: center; /* Center align the text */
+  font-weight: bold; /* Bold the text */
+  font-size: 1rem; /* Larger font size */
+  margin-bottom: 10px; /* Space between text and the image */
+  transition: color 0.3s ease; /* Smooth color change transition */
+}
+
+.loggedIn {
+  color: green; /* Green color for logged in */
+}
+
+.loggedOut {
+  color: red; /* Red color for logged out */
+}
